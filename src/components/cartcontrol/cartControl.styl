@@ -1,0 +1,38 @@
+    .cardcontrol
+      font-size: 0
+      .card-decrease
+        display: inline-block
+        padding: 6px
+        opacity: 1
+        transform: translate3d(0, 0, 0)
+        .inner
+          display: inline-block
+          line-height: 24px
+          color: rgb(0 ,160, 220);
+          font-size: 24px;
+          transition: all 0.4s linear;
+          transform: rotate(0deg)
+          cursor: pointer;
+        &.move-enter-active, &.move-leave-active  
+          transition: all 0.4s linear;
+        &.move-enter, &.move-leave-active
+          opacity: 0
+          transform: translate3d(24px, 0, 0)
+          .inner
+            transform: rotate(180deg)
+      .card-count
+        display: inline-block
+        vertical-align: top
+        width: 12px
+        padding-top: 6px
+        line-height: 24px
+        text-align: center
+        font-size: 10px
+        color: rgb(147 ,153, 159);
+      .cart-add  
+        display: inline-block
+        padding: 6px
+        line-height: 24px
+        font-size: 24px;
+        color: rgb(0 ,160, 220);
+        cursor: pointer

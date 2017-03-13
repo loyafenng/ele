@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*初始化*/
+
+article,aside,figcaption,figure,footer,header,main,nav,section {display: block;margin: 0;padding: 0;}
+body,p,ul,ol,li,dd,dl,dt,h1,h2,h3,h4,h5,h6,form,input,textarea {margin: 0;padding: 0;}
+ul,ol,li {list-style: none;}
+img {border: 0;}
+em,i {font-style: normal;}
+input,textarea {outline: none;}
+html {
+    font-size: 625%;
+    height: 100%;
+    /*-webkit-text-size-adjust: 100%;*/
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+}
+body,button,input,select,textarea,pre {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif,Tahoma, inherit, "Microsoft Yahei", "微软雅黑", STHeiti;
+}
+input[type="submit"] {box-sizing: content-box;}
+input[type="text"],input[type="password"],input[type="tel"] {border: 0 none;}
+textarea {
+    overflow-x: hidden;
+    overflow-y: auto;
+    resize: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a,a:hover {text-decoration: none;
+}
+input[type="submit"],input[type="reset"],input[type="button"],button {
+    border: 0 none;
+    -webkit-appearance: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+::-webkit-input-placeholder {
+    font-size: .14rem;
+}
+:-moz-placeholder {
+    font-size: .14rem;
+}
+::-moz-placeholder {
+    font-size: .14rem;
+}
+:-ms-input-placeholder {
+    font-size: .14rem;
+}
+
+
